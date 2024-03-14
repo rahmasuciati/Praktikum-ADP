@@ -24,7 +24,7 @@ int main() {
 
     rata2 = ((a+b+c+d+e+f)/6);
     ragam = ((a-rata2)*(a-rata2))+((b-rata2)*(b-rata2))+((c-rata2)*(c-rata2))+((d-rata2)*(d-rata2))+((e-rata2)*(e-rata2))+((f-rata2)*(f-rata2));
-    simpangan_baku = sqrt(ragam)
+    simpangan_baku = sqrt(ragam);
     
     cout << "nilai rata2 = " << rata2 << endl;
     cout << "nilai ragam = " << ragam << endl;
